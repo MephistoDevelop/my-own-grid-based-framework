@@ -1,3 +1,14 @@
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-end {
+  align-items: end;
+}
+
+.align-self-center {
+  align-self: center;
+}
 .container {
   padding: 0 15px;
   width: 100%;
@@ -35,6 +46,16 @@
   max-width: 50%;
 }
 .col-7 {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+.col-8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+.col-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
 }
 .col-10 {
   max-width: 83.3%;
@@ -52,6 +73,10 @@
 .d-flex {
   display: flex;
   flex: 1;
+}
+
+.flex-start {
+  align-self: flex-start;
 }
 
 .h-25 {
@@ -206,6 +231,14 @@
   margin: 1.25rem 0 !important;
 }
 
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: initial;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
 .p-0 {
   padding: 0;
 }
@@ -235,6 +268,18 @@
 }
 .pb-4 {
   padding-bottom: 1.25rem !important ;
+}
+.plr-1 {
+  padding: 0 0.25rem !important;
+}
+.plr-2 {
+  padding: 0 0.5rem !important;
+}
+.plr-3 {
+  padding: 1rem !important;
+}
+.plr-4 {
+  padding: 0 1.25rem !important;
 }
 .pl-0 {
   padding-left: 0;

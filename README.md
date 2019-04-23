@@ -4,12 +4,10 @@
 
 **Description**
 
-Simple th odin project clone made with HMTL and CSS (Flexbox)
+Simple the odin project clone made with own grid framework using CSS like boostrap
 
 # Learned
 
-- Fonts
-- Queries
 - Grids
   -Responsive Design
 
