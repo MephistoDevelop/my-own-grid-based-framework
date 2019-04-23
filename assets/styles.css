@@ -1,3 +1,10 @@
 .navbar-link {
   display: inline;
 }
+#navbar-iso {
+  color: #cc9543;
+  letter-spacing: 0.4px;
+  font-weight: bold;
+  font-size: 1.6em;
+  padding-left: 0.5em;
+}
