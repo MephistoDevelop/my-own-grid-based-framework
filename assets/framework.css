@@ -3,12 +3,13 @@
 }
 
 .align-items-end {
-  align-items: end;
+  align-items: flex-end;
 }
 
 .align-self-center {
   align-self: center;
 }
+
 .container {
   padding: 0 15px;
   width: 100%;
