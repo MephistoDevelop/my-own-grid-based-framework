@@ -1,5 +1,60 @@
+@media screen and (max-width: 320px) {
+}
+@media screen and (min-width: 301px) and (max-width: 797px) {
+  .navbar {
+    padding: 0 !important;
+  }
+  .logo {
+    max-width: 251px !important;
+  }
+  .navbar {
+    min-width: 965px !important;
+  }
+  #link-container {
+    display: none;
+  }
+
+  #navbar-logo {
+    max-width: 38px !important;
+  }
+  #navbar-iso {
+    font-size: 0.9em !important;
+  }
+}
+@media screen and (min-width: 798px) and (max-width: 1200px) {
+  .logo {
+    max-width: 251px !important;
+  }
+  .navbar {
+    min-width: 965px !important;
+  }
+  #navbar-logo {
+    max-width: 38px !important;
+  }
+  #navbar-iso {
+    font-size: 0.9em !important;
+  }
+}
+
+.logo {
+  max-width: 371px;
+}
+
+.navbar-items {
+  min-width: 375px;
+}
+
 .navbar-link {
   display: inline;
+  color: #676767;
+  white-space: nowrap;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0 5px;
+}
+#navbar-logo {
+  max-width: 58px;
 }
 #navbar-iso {
   color: #cc9543;
@@ -7,4 +62,5 @@
   font-weight: bold;
   font-size: 1.6em;
   padding-left: 0.5em;
+  max-width: 371px;
 }
