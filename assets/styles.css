@@ -22,6 +22,37 @@
   }
 }
 
+.curriculum-detail {
+  box-shadow: 0 7px 16px 0 rgba(0, 0, 0, 0.05);
+  background: #fff;
+  height: 256px;
+  margin: 0 30px 30px 0;
+  max-width: 254px;
+  padding: 23px 46px 25px;
+  text-align: center;
+  width: 254px;
+}
+
+.curriculum-header {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 0.3px;
+}
+
+.curriculim-headline {
+  margin-top: 18px;
+  font-weight: bold;
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+}
+
+.curriculum-image {
+  height: 160px;
+  width: 160px;
+}
+
 .headline {
   padding-block-end: 1.875rem;
   font-size: 2.25rem;
