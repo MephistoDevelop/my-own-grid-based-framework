@@ -80,6 +80,22 @@ body {
   letter-spacing: 0.2px;
 }
 
+.tile-header {
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  color: #4a4a4a;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  margin: 50px 0 20px;
+}
+
+.tile-description {
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 #header {
   padding-bottom: 3.75rem;
 }
