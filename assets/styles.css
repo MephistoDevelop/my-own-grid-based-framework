@@ -41,6 +41,13 @@
   }
 }
 
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 16px;
+}
+
 .curriculum-detail {
   box-shadow: 0 7px 16px 0 rgba(0, 0, 0, 0.05);
   background: #fff;
@@ -97,6 +104,48 @@
   font-size: 0.8rem;
   font-weight: bold;
   padding: 0 5px;
+}
+
+.signin {
+  font-weight: 100;
+  padding: 5em 2.5em;
+  text-align: center;
+}
+
+.signin-header {
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 2.2em;
+  line-height: 1.5em;
+  margin: 0 auto 1rem;
+  max-width: 25em;
+}
+
+.story-details {
+  color: #ce973e;
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  padding-bottom: 5px;
+}
+.story-description {
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 1.1rem;
+  line-height: 25px;
+}
+
+.story-headline {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 0.3px;
+  color: #4a4a4a;
+  padding-top: 70px;
+}
+
+.story-photo {
+  max-width: 15% !important;
+}
+
+.succes-story {
+  padding-bottom: 70px;
 }
 
 .subheading {
@@ -189,4 +238,13 @@
 
 #tiles {
   margin-bottom: 70px;
+}
+
+#story-link {
+  text-decoration: underline;
+  color: rgba(74, 74, 74, 0.7);
+  padding-top: 30px;
+}
+#story-link:hover {
+  color: black;
 }
