@@ -60,6 +60,22 @@ body {
   background-image: linear-gradient(to bottom, #fff, #eee);
 }
 
+.how-description {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  padding-top: 1em;
+}
+
+.how-tittle {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 0.3px;
+  color: #4a4a4a;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .navbar-items {
   min-width: 375px;
 }
