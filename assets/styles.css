@@ -1,20 +1,10 @@
-@media screen and (max-width: 320px) {
-}
-
 @media screen and (min-width: 301px) and (max-width: 797px) {
   .navbar {
     padding: 0 !important;
   }
-  .logo {
-    max-width: 251px !important;
-  }
-  .navbar {
-    min-width: 965px !important;
-  }
-  #link-container {
+  #links-container {
     display: none;
   }
-
   #navbar-logo {
     max-width: 38px !important;
   }
@@ -24,12 +14,6 @@
 }
 
 @media screen and (min-width: 798px) and (max-width: 1200px) {
-  .logo {
-    max-width: 251px !important;
-  }
-  .navbar {
-    min-width: 965px !important;
-  }
   #navbar-logo {
     max-width: 38px !important;
   }
@@ -38,42 +22,21 @@
   }
 }
 
-body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
 .headline {
   padding-block-end: 1.875rem;
   font-size: 2.25rem;
   font-weight: 300;
   letter-spacing: 0.4px;
   color: #ce973e;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
-}
-
-.logo {
-  max-width: 371px;
 }
 
 .gradient {
   background-image: linear-gradient(to bottom, #fff, #eee);
 }
 
-.how-description {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: rgba(74, 74, 74, 0.7);
-  font-size: 1.125rem;
-  letter-spacing: 0.2px;
-  padding-top: 1em;
-}
-
-.how-tittle {
-  font-weight: bold;
-  font-size: 1.5rem;
-  letter-spacing: 0.3px;
-  color: #4a4a4a;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.navbar {
+  display: flex;
 }
 
 .navbar-items {
@@ -96,24 +59,51 @@ body {
   letter-spacing: 0.2px;
 }
 
-.tile-header {
+.tile-headline {
   font-size: 1.125rem;
   letter-spacing: 0.2px;
   color: #4a4a4a;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   margin: 50px 0 20px;
 }
 
-.tile-description {
+.tile-subheading {
   color: rgba(74, 74, 74, 0.7);
   font-size: 1.125rem;
   letter-spacing: 0.2px;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.88;
+}
+
+.tiles-headline {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 0.3px;
+  color: #4a4a4a;
+  margin-bottom: 36px;
+  margin-top: 100px;
+}
+
+.tiles-subheading {
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  padding-top: 1em;
+  margin-bottom: 100px;
+  line-height: 1.88;
 }
 
 #header {
   padding-bottom: 3.75rem;
+}
+
+#links-container {
+  justify-content: flex-end !important;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  min-width: 200px;
 }
 
 #navbar-logo {
@@ -127,4 +117,8 @@ body {
   font-size: 1.6em;
   padding-left: 0.5em;
   max-width: 371px;
+}
+
+#tiles {
+  margin-bottom: 70px;
 }

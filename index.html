@@ -10,13 +10,13 @@
     <title>Own Grid Framework</title>
   </head>
   <body>
-    <div class="navbar container">
-      <div class="logo container align-items-center">
+    <div class="navbar">
+      <div id="logo">
         <img id="navbar-logo" src="assets/logo.svg" alt="logo" />
         <span id="navbar-iso">THE ODIN PROJECT </span>
       </div>
       <div
-        id="link-container"
+        id="links-container"
         class="container justify-content-center align-items-center"
       >
         <ul class="navbar-items">
@@ -47,25 +47,40 @@
         src="assets/home-isometric-60f02f572fa9ae583a22bf4d391e48f30cae707cbdb602e130bc3f12d73bac85.svg"
         alt=""
       />
+    </div>
+    <div class="container col justify-content-center align-items-center">
+      <div class="tiles-headline text-center">How it works</div>
+      <div class="tiles-subheading text-center">
+        This is the website we wish we had when we were learning on our <br />
+        own. We scour the internet looking for only the best resources to <br />
+        your learning and present them in a logical order.
       </div>
-      <div class="container col how-it-works text-center">
-        <div class="how-tittle">How it works</div>
-        <div class="how-description">
-          This is the website we wish we had when we were learning on our <br />
-          own. We scour the internet looking for only the best resources to <br />
-          your learning and present them in a logical order.
-        </div>
-      </div>
-
-      <div class="container ">
+      <div id="tiles" class="container container-75">
         <div class="container container-33 col align-items-center">
-          <img  src="assets/libro.svg" alt="image" />
-          <div class="tile-header text-center">Learn</div>
-          <div class="tile-description text-center">
+          <img src="assets/libro.svg" alt="image" />
+          <div class="tile-headline text-center">Learn</div>
+          <div class="tile-subheading text-center">
             Learn from a curriculum with the best curated online tutorials,
-            blogs, and courses.</div>
+            blogs, and courses.
           </div>
         </div>
+        <div class="container container-33 col align-items-center">
+          <img src="assets/pc.svg" alt="image" />
+          <div class="tile-headline text-center">Build</div>
+          <div class="tile-subheading text-center">
+            Build dozens of portfolio-worthy projects along the way, from simple
+            scripts to full programs and deployed websites.
+          </div>
+        </div>
+        <div class="container container-33 col align-items-center">
+          <img src="assets/guys.svg" alt="image" />
+          <div class="tile-headline text-center">Connect</div>
+          <div class="tile-subheading text-center">
+            You’re not alone. Learn and get help from our friendly community of
+            beginner and experienced developers.
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
