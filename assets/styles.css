@@ -6,19 +6,19 @@
   .navbar {
     padding: 0 !important;
   }
-  .footer-brand{
-    display:none;
+  .footer-brand {
+    display: none;
   }
-  .footer-links-container{
-    display:none;
+  .footer-links-container {
+    display: none;
   }
 
-  .footer-social{
-    max-width:100% !important;
-    justify-content:center;
+  .footer-social {
+    max-width: 100% !important;
+    justify-content: center;
   }
-  .footer-links-container{
-    max-width:150px !important;
+  .footer-links-container {
+    max-width: 150px !important;
   }
   .tile {
     padding: 1em;
@@ -101,10 +101,10 @@
   height: 160px;
   width: 160px;
 }
-.footer-icon{
- color: #ce973e;
- font-size: 24px;
- margin: 0 10px;
+.footer-icon {
+  color: #ce973e;
+  font-size: 24px;
+  margin: 0 10px;
 }
 .footer-link {
   color: rgba(74, 74, 74, 0.7);
@@ -147,6 +147,10 @@
   font-size: 0.8rem;
   font-weight: bold;
   padding: 0 5px;
+}
+
+.navbar-link:hover {
+  color: black;
 }
 
 .signin-header {
