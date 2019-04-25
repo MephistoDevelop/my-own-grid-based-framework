@@ -33,10 +33,10 @@
   #links-container {
     display: none;
   }
-  #navbar-logo {
+  .navbar-logo {
     max-width: 38px !important;
   }
-  #navbar-iso {
+  .navbar-iso {
     font-size: 0.9em !important;
   }
 }
@@ -51,10 +51,10 @@
     flex-direction: column;
     align-items: center;
   }
-  #navbar-logo {
+  .navbar-logo {
     max-width: 38px !important;
   }
-  #navbar-iso {
+  .navbar-iso {
     font-size: 0.9em !important;
   }
 }
@@ -264,17 +264,17 @@
   justify-content: flex-end !important;
 }
 
-#logo {
+. logo {
   display: flex;
   align-items: center;
   min-width: 200px;
 }
 
-#navbar-logo {
+.navbar-logo {
   max-width: 58px;
 }
 
-#navbar-iso {
+.navbar-iso {
   color: #cc9543;
   letter-spacing: 0.4px;
   font-weight: bold;
